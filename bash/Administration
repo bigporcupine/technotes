@@ -10,3 +10,9 @@
     alias yourcommand="<<bash command expression>>"
   2) Edit ~/.profile 
     source ~/.bashrc
+    
+4. How to decide which linux distribution you are using
+  Debian: /etc/debian_version
+  Ubuntu: lsb_release -a or /etc/debian_version
+  Redhat: cat /etc/redhat-release
+  Fedora: cat /etc/fedora-release
