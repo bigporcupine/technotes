@@ -1,0 +1,8 @@
+1. File system disk space usage
+  df -hl
+  -h: human readable
+  -l: limit listing to local file systems
+2. Estimate file space usage
+  du -h -d1 /tmp
+  -h: human readable
+  
