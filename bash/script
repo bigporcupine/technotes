@@ -1,0 +1,25 @@
+1. Define a bash variable containing invisible char
+  var=`echo -e '\001'`
+2. Remove given column from a file containing multiple columns
+  cut -d"$sep" -f 2 --complement 
+3. Inplace sed
+  sed -i $filename
+4. Chain multiple sed command
+  sed -i $filename -e 's/false/0/g' -e 's/true/1/g'
+5. Create folder as well as its all ancient folders
+  mkdir -p /tmp/parent/parent/folder
+6. Self-increase number
+  cnt=$[$cnt+1]
+7. Here document assign to variable
+  mydoc = $(cat <<EOF
+......
+EOF
+)
+8. Retrive file name from full name with file extention
+  fullname="a.b.txt"
+  name=${fullname%.txt}
+  name=${fullname%%.txt}
+9. Multiple logic operation
+  if [ $cnt -eq 1] || [ $cnt -eq 2 ] || [ $cnt -eq 3 ]
+  then
+  fi
