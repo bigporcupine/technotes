@@ -5,4 +5,8 @@
 2. Estimate file space usage
   du -h -d1 /tmp
   -h: human readable
-  
+3. How to set alias
+  1)Edit ~/.bashrc
+    alias yourcommand="<<bash command expression>>"
+  2) Edit ~/.profile 
+    source ~/.bashrc
