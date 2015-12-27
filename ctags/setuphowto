@@ -1,0 +1,4 @@
+1. Generate tags
+  ctags -R –c++-kinds=+px –fields=+iaS –extra=+q .
+2. Set tags path on ~/.vimrc
+  set tags+=~/gitrepo/product/tags;.

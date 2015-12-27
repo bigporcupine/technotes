@@ -1,0 +1,12 @@
+1) install nodejs
+cd /usr/src
+wget http://nodejs.org/dist/v0.10.4/node-v0.10.4.tar.gz
+tar zxf node-v0.10.4.tar.gz
+cd node-v0.10.4
+./configure
+make
+make install
+
+2) install nodejs npm (node package manager)
+
+sudo yum install -y nodejs
