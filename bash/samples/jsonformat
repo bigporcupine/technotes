@@ -1,0 +1,2 @@
+echo '{"test":1,"test2":2}' | python -mjson.tool
+python -mjson.tool filename.jso
