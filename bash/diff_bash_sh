@@ -1,0 +1,23 @@
+In writing linux script, we usually have following as the first line to indicate system using what shell to interpret 
+
+#!/bin/sh
+
+it always works, until it didn't for below script
+if [ "aa" == "aa" ]
+then
+   echo "yes"
+fi
+
+error message:
+[: aa: unexpected operator
+
+The story is the writing /bin/sh and /bin/bash is not always identical. Actually /bin/sh is a link to (usually) either /bin/bash
+or /bin/dash.
+
+Use ls -al /bin/sh to see what shell it points to.
+
+note: sh is a programming language specification defined by POXIS, with variant implementation: 
+Try watching /etc/lsb-release /etc/redhat-release /etc/os-release ... to know which linux derivation you are using (BSD/Ubuntu ..)
+ bash -- redhat??
+ dash -- Modern Debian and Ubuntu systems
+ ksh -- BSD, OpenBSD
