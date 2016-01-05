@@ -1,0 +1,4 @@
+mkdir -p ~/.vim/colors & cd ~/.vim/colors
+wget https://raw.githubusercontent.com/sjl/badwolf/master/colors/badwolf.vim -O badwolf.vim
+
+Can go http://cocopon.me/app/vim-color-gallery/ for other options
