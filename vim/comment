@@ -1,0 +1,8 @@
+1. installer  https://github.com/scrooloose/nerdcommenter
+2. usage
+  <lead> stands for '\'
+  <lead>cc    -- comment
+  <lead>cu    -- uncomment
+  
+3. add additional space right after "//", edit your .vimrc, add below line
+   let g:NERDSpaceDelims=1
