@@ -1,0 +1,15 @@
+1. Benefit of vendle
+   vim plugin manager that ease the work of manually copy/delete doc/.vim files to/from ~/.vim/doc and ~/.vim/plugin
+2. install step
+  1)git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+  2)edit ~/.vimrc
+  
+  set nocompatible              " be iMproved
+
+  set rtp+=~/.vim/bundle/vundle/
+  call vundle#rc()
+
+  " let Vundle manage Vundle
+  " required!
+  Bundle 'gmarik/vundle'
+  3) in vim editor,type ":BundleInstall"
