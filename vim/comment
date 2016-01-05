@@ -1,8 +1,13 @@
 1. installer  https://github.com/scrooloose/nerdcommenter
 2. usage
-  <lead> stands for '\'
-  <lead>cc    -- comment
+  <lead> stands for '\' by default
+  <lead>cc    -- comment current line
   <lead>cu    -- uncomment
+  <lead>ca    -- switch between /* */ and // style
+  <lead> cs   -- beautiful comment
+  <lead>cA    -- add comment at the end of line
+  <lead>cu    -- cancel comment
+
   
 3. add additional space right after "//", edit your .vimrc, add below line
    let g:NERDSpaceDelims=1
