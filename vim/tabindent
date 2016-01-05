@@ -1,3 +1,7 @@
-set ts=4
-set expandtab
 set autoindent
+" On pressing tab, insert 4 spaces
+set softtabstop=4 shiftwidth=4 expandtab
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
