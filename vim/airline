@@ -18,3 +18,5 @@
 3) vim swith among diff file windows
   :bn
   :bp
+  ":ls"查看当前打开的buffer（文件）
+  ":b num"切换文件（其中num为buffer list中的编号）
