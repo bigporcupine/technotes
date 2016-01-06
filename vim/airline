@@ -15,3 +15,6 @@
   let g:airline#extensions#tabline#enabled = 1
   
 2) ":BundleInstall", done
+3) vim swith among diff file windows
+  :bn
+  :bp
