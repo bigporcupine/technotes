@@ -1,0 +1,25 @@
+Plugin that enable your command output to vim "quick fix" window just like vim ":make" command, it's useful because you
+are not always type ":make" to build your project
+
+https://github.com/tpope/vim-dispatch
+
+How to install:
+  cd ~/.vim/bundle
+  git clone git://github.com/tpope/vim-dispatch.git
+  
+Short Cuts:
+  1)Foreground build
+     :Make
+  2)Background build
+    :Make!
+  3) open quickfix window manually
+    :Copen
+    
+    if the build succeed in background build (see 2)), the quick fix window won't appear, use ":Copen" to deliberately open it
+  4) switch other compiler than "make"
+    :Dispatch myBuildTool /tmp/test.cpp
+    :Dispatch myBuildTool %          ---- '%' here means current file name
+    
+  
+More usage detail see https://github.com/tpope/vim-dispatch
+
